@@ -1,0 +1,230 @@
+.banner{
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper{
+    position: relative;
+    height: 500px;
+}
+
+.banner .wrapper .aside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.banner .aside li{
+    height: 50px;
+    line-height: 50px;
+}
+
+.banner .aside a{
+    position: relative;
+    display:block;
+    padding-left: 35px;
+    padding-right: 19px;
+    color: #fff;
+}
+
+.banner .aside a span{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.banner .aside a:hover{
+    background-color: #27ba9b;
+}
+
+/* 在a的里面最后添加箭头 */
+.banner .aside a::after{
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/右箭头.png);
+}
+/* 箭头 */
+.prev,.next{
+    position: absolute;
+    top: 228px;
+    width: 50px;
+    height: 50px;background-color: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    background-image: url(../images/皇冠用户.png);
+}
+
+.prev{
+    left: 260px;
+}
+
+.next{
+    right: 10px;
+}
+/* 圆点 */
+.banner ol{
+    position: absolute;
+    left: 680px;
+    bottom: 30px;
+    width: 200px;
+    height: 10px;
+}
+
+.banner ol li{
+    float: left;
+    margin-right: 24px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(60, 12, 232, 0.4);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner ol .active{
+    background-color: rgb(164, 4, 249);
+}
+
+/* 新鲜好物 */
+.goods .hd{
+    height: 114px;
+    line-height: 114px;
+}
+
+.goods .hd h2{
+    height: 114px;
+    float: left;
+    font-size: 29px;
+    font-weight: 400px;
+}
+
+.goods .hd a{
+    float: right;
+    color: #999;
+}
+
+.goods .hd h2 span{
+    margin-left: 34px;
+    font-size: 16px;
+    color: #999;
+}
+
+.goods .bd li{
+    position: relative;
+    margin-right: 8px;
+    float: left;
+    text-align: center;
+    width: 304px;
+    height: 405px;
+    background-color: #f0f9f4;
+}
+
+.goods .bd li:last-child{
+    margin-right: 0;
+}
+
+.goods .bd li img{
+    width: 304px;
+}
+
+.goods .bd li h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.goods .bd li div{
+    color: red;
+    font-size: 17px;
+}
+
+.goods .bd li b{
+    position: absolute;
+    left: 17px;
+    top: 18px;
+    width: 28px;
+    height: 51px;
+    border: 1px solid #27ba9b;
+    border-radius: 18px;
+    color: #27ba9b;
+    line-height: 22px;
+}
+
+.shengxian .hd{
+    height: 96px;
+    line-height: 96px;
+}
+
+
+.shengxian .hd h2{
+    float: left;
+    font-size: 29px;
+    font-weight: 400px;
+}
+
+.shengxian .hd .more{
+    float: right;
+    margin-left: 20px;
+    color: #999;
+}
+
+.shengxian .hd ul{
+    float: right;
+}
+
+.shengxian .hd ul li{
+    float: left;
+    margin-right: 40px;
+    color: #999;
+}
+
+.shengxian .hd ul li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.shengxian .hd ul li a{
+    padding-bottom: 7px;
+}
+
+.shengxian .bd .left{
+    float: left;
+    width: 240px;
+    height: 610px;
+}
+
+.shengxian .bd .right{
+    float: left;
+    width: 1000px;
+    height: 610px;
+}
+
+.shengxian .bd .right li{
+    float: left;
+    margin-left: 8px;
+    margin-bottom: 6px;
+    width: 242px;
+    height: 302px;
+    text-align: center;
+}
+
+.shengxian .bd .right img{
+    width: 242px;
+}
+
+.shengxian .bd .right h4{
+    margin-top: 8px;
+    font-size: 20px;
+    color: #27ba9b;
+}
+
+.shengxian .bd .right b{
+    color: red;
+    font-size: 15px;
+}
